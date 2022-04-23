@@ -8,9 +8,6 @@ namespace DotNetCoreKoans.Koans
         public PathToEnlightenment()
         {
             Types = new Type[] {
-                typeof(AboutDictionary),
-                typeof(AboutDirectory),
-                typeof(AboutFile),
                 typeof(AboutAsserts),
                 typeof(AboutBooleans),
                 typeof(AboutStrings),
@@ -20,6 +17,7 @@ namespace DotNetCoreKoans.Koans
                 typeof(AboutConstants),
                 typeof(AboutArrays),
                 typeof(AboutArrayAssignment),
+                typeof(AboutDictionary),
                 typeof(AboutEnumerations),
                 typeof(AboutClasses),
                 typeof(AboutInheritance),
@@ -36,7 +34,9 @@ namespace DotNetCoreKoans.Koans
                 typeof(AboutPatternMatching),
                 typeof(AboutTuples),
                 typeof(AboutGlobalization),
-                typeof(AboutDisposable)
+                typeof(AboutDisposable),
+                typeof(AboutDirectory),
+                typeof(AboutFile),
             };
         }
     }
